@@ -74,7 +74,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                tag 'docker tag 10.250.0.6:5050/gerardod/hello-final/hello-final-testing:latest 10.250.14.1:5050/gerardod/hello-final/hello-final-testing:TESTING-1.0.${BUILD_NUMBER}'
+                tag 'docker tag 10.250.0.6:5050/gerardod/hello-final/hellofinal-testing:latest 10.250.14.1:5050/gerardod/hello-final/hello-final-testing:TESTING-1.0.${BUILD_NUMBER}'
                 withDockerRegistry([url:'http://10.250.14.1:5050', credentialsId:'dockerCLI' ]) {
                     sh 'docker push 10.250.0.6:5050/gerardod/hello-final/hello-final-testing:latest'
 		}

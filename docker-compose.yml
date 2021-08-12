@@ -1,7 +1,7 @@
 version: "3.0"
 services:
-  hello:
-    image: 10.250.14.1:5050/gerardod/hello-final/hello-final-testing:latest
+  hello-final:
+    image: hello-final:latest
     build: .
     ports:
       - "8081:8081"
