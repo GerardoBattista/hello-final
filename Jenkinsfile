@@ -72,6 +72,7 @@ pipeline {
                 }
             }
         }
+/*
         stage('Publish') {
             steps {
                 tag 'docker tag hello-final:latest 10.250.14.1:5050/gerardod/hello-final:TESTING-1.0.${BUILD_NUMBER}'
@@ -81,7 +82,6 @@ pipeline {
 		}
             }
         }
-/*
         stage('Deploy') {
             steps {
                echo 'Desplegando servicio...'
@@ -93,5 +93,13 @@ pipeline {
             }
         }    
 */
+        stage('Deploy') {
+            steps {
+                echo '\033[34mEjecutando\033[0m \033[33mla\033[0m \033[35maplicación\033[0m'
+                /*sh '''./gradlew bootRun --args='--server.port=5000' '''*/
+                /*sh '''docker-compose build
+                docker-compose up -d'''*/
+            }
+        }
     }
 }
