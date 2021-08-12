@@ -74,7 +74,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                tag 'docker tag hello-final:latest 10.250.14.1:5050/gerardod/hello-final/hello-final:TESTING-1.0.${BUILD_NUMBER}'
+                tag 'docker tag hello-final:latest 10.250.14.1:5050/gerardod/hello-final:TESTING-1.0.${BUILD_NUMBER}'
                 withDockerRegistry([url:'http://10.250.14.1:5050', credentialsId:'Docker-gitlab' ]) {
                     sh 'docker push 10.250.14.1:5050/gerardod/hello-final/hello-final:latest'
                     sh 'docker push 10.250.14.1:5050/gerardod/hello-final:TESTING-1.0.${BUILD_NUMBER}'
