@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.3.0" sequence="0" timestamp="1628792164062" analysisTimestamp="1628792164430" release="0.0.1-SNAPSHOT">
+  <Project projectName="hello-final (spotbugsTest)">
+    <Jar>/home/viewadmin/hello-final/build/classes/java/test/com/viewnext/hellofinal/HelloFinalApplicationTests.class</Jar>
+    <AuxClasspathEntry>/home/viewadmin/hello-final/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/hello-final/build/classes/groovy/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/hello-final/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.5.3/2cb23f2928177eeb9be81036623f4350a86a433/spring-boot-starter-web-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.8/43a7ecf3b8a9d7dd9fc8d468ae96b97cff4616df/groovy-3.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.5.3/b3e6075daed4c81d5f1d5fa340debdc3241cc3dc/spring-boot-starter-test-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.20.2/66f1f0ebd6db2b24e4a731979171da16ba919cd5/assertj-core-3.20.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.5.3/10336b02e83756f916c0d9510555046cacfc2005/spring-boot-starter-json-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.5.3/2e16fb3d63961548468a2cd70015d4b1be968fd4/spring-boot-starter-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.5.3/bedcf69b9e83a0744d93e5672320039b55deffd/spring-boot-starter-tomcat-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.9/c3cd1f0bba2658995e887d2f0011ab9bd3da1773/spring-webmvc-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.9/88c920ec1bda67fea04daa8e16165777440df473/spring-web-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.5.3/57751a3e312da7db3226e24d1ba4a6b0d475de30/spring-boot-test-autoconfigure-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.5.3/bba801d1ba60438699c9410a91f23b4880394bda/spring-boot-test-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.5.0/c35ef29095125b51638d19120f63e2b56eff20e9/json-path-2.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.7.2/685f832f8c54dd40100f646d61aca88ed9545421/junit-jupiter-params-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.2/f4b4079732a9c537983324cfa4e46655f21d2c56/junit-jupiter-api-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.2/34adfea6c13fc4a996cf38cdad80800ce850d198/junit-platform-commons-1.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.7.2/62faa742964a9d8dab8fdb4a0eab7b01441c171f/junit-jupiter-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.9.0/871745ab6af5a269411ea3c1f99ced82ed079436/mockito-junit-jupiter-3.9.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.9.0/b7573430aea743b26434b44f4f46272af613e660/mockito-core-3.9.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.3.9/62d85d0b20318bd036fe2a78e2de96026bacc916/spring-test-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.5.3/f03d7e9102d93ab25110da850be9facf11818a0b/spring-boot-autoconfigure-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.5.3/e25d2de9e166a8bbbfae633fc03220ab36ac19a9/spring-boot-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.9/887f4579ade4f47cf0102856f4f4c88eda8ec9d7/spring-context-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.9/9bcad31a74e60d205500dd67d2220bd0195c63f8/spring-aop-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.9/48600db2cb1abc0f7ef2b073f0c1abd78a83bcfc/spring-beans-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.9/f5ca763cfb9d62d196efd5d25e8daca7d555ed75/spring-expression-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.9/cfef19d1dfa41d56f8de66238dc015334997d573/spring-core-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.8.2/8e4e46b87afaaf9b6cfb8de778e473cf7aeb087f/xmlunit-core-2.8.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.5.3/a3a2057be09b4105ecf2e7e3097e0e3fe2eb2684/spring-boot-starter-logging-2.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.28/7cae037c3014350c923776548e71c9feb7a69259/snakeyaml-1.28.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.12.4/b1174c05d4ded121a7eaeed3f148709f9585b981/jackson-datatype-jsr310-2.12.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.12.4/87c4e9a3302f0fafe4e5587f9c27d22847d8fe00/jackson-module-parameter-names-2.12.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.12.4/752cf9a2562ac2c012e48057e3a4c17dad66c66e/jackson-annotations-2.12.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.12.4/6a1bd259b6c4e3f9219ec8ec0be55ed11eed0c/jackson-core-2.12.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.12.4/858a1e1b677cbafd3b100d5154f491a7051401c/jackson-datatype-jdk8-2.12.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.12.4/69206e02e6a696034f06a59d3ddbfbba5a4cd81/jackson-databind-2.12.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.50/eb8d0bedeb2a9ed61ea3b3790055e937e52898a3/tomcat-embed-websocket-9.0.50.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.50/14307c487516ab3526213a1205c5243b0c484e8d/tomcat-embed-core-9.0.50.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.50/ee4e14e128bf6ffe7650c7a5d8cedf97fb36d91b/tomcat-embed-el-9.0.50.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.4.7/8d7f4c1530c07c54930935f3da85f48b83b3c109/json-smart-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.4/f3bc99fd0b226065012b24fe9f808299048bab54/logback-classic-1.2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.14.1/ce8a86a3f50a4304749828ce68e7478cafbc8039/log4j-to-slf4j-2.14.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.32/8a055c04ab44e8e8326901cadf89080721348bdb/jul-to-slf4j-1.7.32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/99f53adba383cb1bf7c3862844488574b559621f/jakarta.activation-api-1.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.22/ef45d7e2cd1c600d279704f492ed5ce2ceb6cdb5/byte-buddy-1.10.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.22/b01df6b71a882b9fde5a608a26e641cd399a4d83/byte-buddy-agent-1.10.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.2/7fadf57620c8b8abdf7519533e5527367cb51f09/objenesis-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.9/622eb12c98768b6d3acc71ce06bac8b332607a10/spring-jcl-5.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.7/3970cfc505e6657ca60f3aa57c849f6043000d7a/accessors-smart-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.4/5f429ee58dbacf9040f846f1218c36ca6e851596/logback-core-1.2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/cd8858fbbde69f46bce8db1152c18a43328aae78/log4j-api-2.14.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/viewadmin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar</AuxClasspathEntry>
+    <SrcDir>/home/viewadmin/hello-final/src/test/resources</SrcDir>
+    <SrcDir>/home/viewadmin/hello-final/src/test/java</SrcDir>
+    <SrcDir>/home/viewadmin/hello-final/src/test/groovy</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 12 Aug 2021 20:16:04 +0200" total_classes="1" referenced_classes="13" total_bugs="0" total_size="5" num_packages="1" java_version="11.0.11" vm_version="11.0.11+9-Ubuntu-0ubuntu2.18.04" cpu_seconds="6.21" clock_seconds="8.47" peak_mbytes="137.59" alloc_mbytes="512.00" gc_seconds="0.15">
+    <FileStats path="com/viewnext/hellofinal/HelloFinalApplicationTests.java" bugCount="0" size="5"/>
+    <PackageStats package="com.viewnext.hellofinal" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.viewnext.hellofinal.HelloFinalApplicationTests" sourceFile="HelloFinalApplicationTests.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1676" invocations="306" avgMicrosecondsPerInvocation="5477" maxMicrosecondsPerInvocation="72836" standardDeviationMicrosecondsPerInvocation="10974"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="419" invocations="310" avgMicrosecondsPerInvocation="1353" maxMicrosecondsPerInvocation="18404" standardDeviationMicrosecondsPerInvocation="1991"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="251" invocations="13" avgMicrosecondsPerInvocation="19313" maxMicrosecondsPerInvocation="158719" standardDeviationMicrosecondsPerInvocation="42012"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="211" invocations="273" avgMicrosecondsPerInvocation="773" maxMicrosecondsPerInvocation="35679" standardDeviationMicrosecondsPerInvocation="2653"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="196" invocations="60" avgMicrosecondsPerInvocation="3272" maxMicrosecondsPerInvocation="25894" standardDeviationMicrosecondsPerInvocation="6014"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="195" invocations="2" avgMicrosecondsPerInvocation="97704" maxMicrosecondsPerInvocation="195254" standardDeviationMicrosecondsPerInvocation="97549"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="194" invocations="13" avgMicrosecondsPerInvocation="14926" maxMicrosecondsPerInvocation="96714" standardDeviationMicrosecondsPerInvocation="27883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="143" invocations="39" avgMicrosecondsPerInvocation="3683" maxMicrosecondsPerInvocation="19101" standardDeviationMicrosecondsPerInvocation="4539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="129" invocations="2" avgMicrosecondsPerInvocation="64656" maxMicrosecondsPerInvocation="129119" standardDeviationMicrosecondsPerInvocation="64462"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="123" invocations="13" avgMicrosecondsPerInvocation="9496" maxMicrosecondsPerInvocation="49758" standardDeviationMicrosecondsPerInvocation="16325"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
