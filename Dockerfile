@@ -7,6 +7,6 @@ RUN ./gradlew assemble
 # Runtime stage
 FROM amazoncorretto:11
 WORKDIR /home/viewadmin/hello-final
-COPY /home/viewadmin/hello-final/build/classes/java/main/com/viewnext/hellofinal/HelloFinal-0.0.1-SNAPSHOT.jar ./
+COPY /home/viewadmin/hello-final/src/main/java/HelloFinal-0.0.1-SNAPSHOT.jar ./
 CMD java -jar HelloFinal-0.0.1-SNAPSHOT.jar
 
