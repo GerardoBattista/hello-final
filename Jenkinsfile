@@ -81,6 +81,7 @@ pipeline {
 		}
             }
         }
+/*
         stage('Deploy') {
             steps {
                echo 'Desplegando servicio...'
@@ -90,6 +91,7 @@ pipeline {
                    '''
                 }
             }
+*/
         }    
 
     }
