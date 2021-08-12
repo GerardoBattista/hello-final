@@ -72,6 +72,7 @@ pipeline {
                 }
             }
         }
+/*
         stage('Publish') {
             steps {
                 tag 'docker tag 10.250.0.6:5050/gerardod/hello-final/hellofinal-testing:latest 10.250.14.1:5050/gerardod/hello-final/hello-final-testing:TESTING-1.0.${BUILD_NUMBER}'
@@ -80,10 +81,17 @@ pipeline {
 		}
             }
         }
+*/
         stage('Deploy') {
             steps {
-                echo 'Deploying...'
+               echo 'Deplegando servicio...'
+               sshagent(credentials:['appkey']){
+                   sh '''
+                   ssh -o StrictHostKeyChecking=no app app@10.250.14.1 'cd hello-spring && docker-compose pull && docker-compose up -d'
+                   '''
+                }
             }
-        }
+        }    
+
     }
 }
