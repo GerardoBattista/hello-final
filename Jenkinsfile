@@ -60,7 +60,7 @@ pipeline {
         stage('Security') {
             steps {
                 echo 'Security analysis...'
-                sh 'trivy image --format=json --output=trivy-image.json hello-final-testing:latest'
+                sh 'trivy image --format=json --output=trivy-image.json hello-final:latest'
             }
             post {
                 always {
@@ -72,22 +72,20 @@ pipeline {
                 }
             }
         }
-/*
         stage('Publish') {
             steps {
-                tag 'docker tag 10.250.0.6:5050/gerardod/hello-final/hellofinal-testing:latest 10.250.14.1:5050/gerardod/hello-final/hello-final-testing:TESTING-1.0.${BUILD_NUMBER}'
+                tag 'docker tag 10.250.0.6:5050/gerardod/hello-final/hellofinal:latest 10.250.14.1:5050/gerardod/hello-final/hello-final:TESTING-1.0.${BUILD_NUMBER}'
                 withDockerRegistry([url:'http://10.250.14.1:5050', credentialsId:'dockerCLI' ]) {
-                    sh 'docker push 10.250.0.6:5050/gerardod/hello-final/hello-final-testing:latest'
+                    sh 'docker push 10.250.0.6:5050/gerardod/hello-final/hello-final:latest'
 		}
             }
         }
-*/
         stage('Deploy') {
             steps {
-               echo 'Deplegando servicio...'
+               echo 'Desplegando servicio...'
                sshagent(credentials:['appkey']){
                    sh '''
-                   ssh -o StrictHostKeyChecking=no app app@10.250.14.1 'cd hello-spring && docker-compose pull && docker-compose up -d'
+                   ssh -o StrictHostKeyChecking=no app app@10.250.14.1 'cd hello-final && docker-compose pull && docker-compose up -d'
                    '''
                 }
             }
