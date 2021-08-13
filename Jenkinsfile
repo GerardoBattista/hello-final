@@ -53,7 +53,7 @@ pipeline {
 	}
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo '\033[34mConstruyendo\033[0m \033[33mla\033[0m \033[35mimagen\033[0m'
                 sh 'docker-compose build'
             }
         }
