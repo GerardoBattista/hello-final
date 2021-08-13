@@ -7,7 +7,7 @@ pipeline {
     }
     stages {
         stage('Test') {
-	    when { expression { false } }
+//	    when { expression { false } }
             steps {
                 echo 'Testing...'
                 withGradle {
