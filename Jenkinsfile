@@ -3,7 +3,7 @@ import java.util.concurrent.CompletionStage //nueva
 pipeline {
     agent any
         tools {
-        maven 'Maven 3.5.0'
+        maven "Maven 3.5.0"
     }
     options {
         ansiColor('xterm')
