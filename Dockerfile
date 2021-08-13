@@ -1,4 +1,4 @@
-FROM openjdk:11 AS base
+FROM openjdk:16 AS base
 WORKDIR /opt/hello-final
 COPY ./ ./
 RUN ./gradlew assemble
