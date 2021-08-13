@@ -2,6 +2,9 @@
 import java.util.concurrent.CompletionStage //nueva
 pipeline {
     agent any
+        tools {
+        maven 'Maven 3.5.0'
+    }
     options {
         ansiColor('xterm')
     }
@@ -19,13 +22,13 @@ pipeline {
                 }
             }
         }
-
-             stage('Mutation Test') {
-                  steps {
-                  mvn 'org.pitest:pitest-maven:mutationCoverage'
-                 }
-             }
-
+           stage('Test-mutation'){
+            steps {
+                dir("service/") {
+                    ansiColor("xterm") { sh "mvn test pitest:mutationCoverage" }
+                }
+              }
+            }
                stage('test-pitest'){
           when { expression { false } } 
             steps {
