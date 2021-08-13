@@ -20,7 +20,7 @@ pipeline {
               }
         }
                 stage('test-pitest'){
-//          when { expression { false } } 
+          when { expression { false } } 
             steps {
               echo 'Testing pitest'
                 withGradle {
