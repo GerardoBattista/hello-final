@@ -17,12 +17,12 @@ pipeline {
                 withGradle {
                     sh './gradlew clean test '
                 }
-              }
+            }
         }
 
-    stage('Mutation Test') {
-        mvn "org.pitest:pitest-maven:mutationCoverage"
-    }
+        stage('Mutation Test') {
+             mvn "org.pitest:pitest-maven:mutationCoverage"
+        }
 
                stage('test-pitest'){
           when { expression { false } } 
