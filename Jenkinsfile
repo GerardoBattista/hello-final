@@ -23,6 +23,7 @@ pipeline {
                     sh './gradlew pitest'
                 }
               }
+          }
             post {
                 always {
                     junit 'build/test-results/test/TEST-*.xml'
