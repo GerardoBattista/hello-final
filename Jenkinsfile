@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+import java.util.concurrent.CompletionStage //nueva
 pipeline {
     agent any
     options {
