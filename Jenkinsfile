@@ -20,9 +20,11 @@ pipeline {
             }
         }
 
-        stage('Mutation Test') {
-             mvn "org.pitest:pitest-maven:mutationCoverage"
-        }
+             stage('Mutation Test') {
+                  steps {
+                  mvn 'org.pitest:pitest-maven:mutationCoverage'
+                 }
+             }
 
                stage('test-pitest'){
           when { expression { false } } 
