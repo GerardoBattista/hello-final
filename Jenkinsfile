@@ -6,32 +6,37 @@ pipeline {
         ansiColor('xterm')
     }
     stages {
-        stage('Test') {
-//	    when { expression { false } }
+            stage('Tests') {
+              
+            failFast true // skip if true 
+            parallel {
+        stage('Clean-test'){
+           when { expression { false } } 
             steps {
-                echo 'Testing...'
+              echo 'Testing...'
                 withGradle {
                     sh './gradlew clean test '
                 }
-            }
-
-          stage('test-pitest'){
-//          when { expression { false } } //skip in false
+              }
+        }
+                stage('test-pitest'){
+          when { expression { false } } 
             steps {
               echo 'Testing pitest'
                 withGradle {
                     sh './gradlew pitest'
                 }
               }
-          }
-            post {
+             post {
                 always {
                     junit 'build/test-results/test/TEST-*.xml'
                     jacoco execPattern:'build/jacoco/*.exec'
                     recordIssues(enabledForFailure: true, tool: pit(pattern:"build/reports/pitest/**/*.xml"))
                 }
-            }
-        }
+             }
+           }
+         }
+      }
 	stage('Analysis') {
 		parallel {
 			stage('SonarQube Analysis') {
