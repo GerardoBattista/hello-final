@@ -19,14 +19,17 @@ pipeline {
                 }
               }
         }
-                stage('test-pitest'){
+    stage('Mutation Test') {
+        mvn "org.pitest:pitest-maven:mutationCoverage"
+    }
+/*                stage('test-pitest'){
           when { expression { false } } 
             steps {
               echo 'Testing pitest'
                 withGradle {
                     sh './gradlew pitest'
                 }
-              }
+              } */
              post {
                 always {
                     junit 'build/test-results/test/TEST-*.xml'
