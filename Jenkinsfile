@@ -11,9 +11,18 @@ pipeline {
             steps {
                 echo 'Testing...'
                 withGradle {
-                    sh './gradlew clean test pitest'
+                    sh './gradlew clean test '
                 }
             }
+
+          stage('test-pitest'){
+//          when { expression { false } } //skip in false
+            steps {
+              echo 'Testing pitest'
+                withGradle {
+                    sh './gradlew pitest'
+                }
+              }
             post {
                 always {
                     junit 'build/test-results/test/TEST-*.xml'
