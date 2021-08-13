@@ -19,14 +19,7 @@ pipeline {
                 }
             }
         }
-           stage('Test-mutation'){
-            steps {
-                dir("service/") {
-                    ansiColor("xterm") { sh "mvn test pitest:mutationCoverage" }
-                }
-              }
-            }
-               stage('test-pitest'){
+        stage('test-pitest'){
           when { expression { false } } 
             steps {
               echo 'Testing pitest'
